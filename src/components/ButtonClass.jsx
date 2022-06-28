@@ -8,8 +8,13 @@ class ButtonClass extends Component {
 
 	render() {
 		const { text, color } = this.props;
-		return <button>{text ? text : "Default Text"}</button>;
+		return <button>{text}</button>;
 	}
 }
+
+ButtonClass.defaultProps = {
+	text: "Default",
+	color: "black",
+};
 
 export default ButtonClass;

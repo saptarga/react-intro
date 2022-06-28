@@ -17,6 +17,7 @@ const App = () => {
 				<ButtonClass text="I'm button class" color="blue" />
 				<ButtonFunction text="I'm button function" color="blue" />
 				<ButtonClass />
+				<ButtonFunction />
 			</div>
 		</div>
 	);
