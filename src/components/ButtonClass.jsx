@@ -7,7 +7,8 @@ class ButtonClass extends Component {
 	}
 
 	render() {
-		return <button>{this.props.text}</button>;
+		const { text, color } = this.props;
+		return <button>{text}</button>;
 	}
 }
 

@@ -14,7 +14,7 @@ const App = () => {
 				})}
 			</ul>
 			<div style={{ margin: "20px" }}>
-				<ButtonClass text="I'm button class" />
+				<ButtonClass text="I'm button class" color="blue" />
 				<ButtonFunction text="I'm button function" color="blue" />
 			</div>
 		</div>
