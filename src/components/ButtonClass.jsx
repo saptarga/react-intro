@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 
 class ButtonClass extends Component {
+	// optional
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
-		return <button>ButtonClass</button>;
+		return <button>{this.props.text}</button>;
 	}
 }
 
