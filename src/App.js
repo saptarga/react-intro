@@ -7,8 +7,9 @@ const App = () => {
 		<div>
 			<h1>Hello React</h1>
 			<ul>
-				<li>{favoriteFood[0]}</li>
-				<li>{favoriteFood[1]}</li>
+				{favoriteFood.map((food) => {
+					return <li>{food}</li>;
+				})}
 			</ul>
 		</div>
 	);
