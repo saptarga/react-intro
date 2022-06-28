@@ -1,7 +1,8 @@
 import React from "react";
 
-const ButtonFunction = () => {
-	return <button>ButtonFunction</button>;
+const ButtonFunction = (props) => {
+	const { text, color } = props;
+	return <button style={{ color: color }}>{text}</button>;
 };
 
 export default ButtonFunction;

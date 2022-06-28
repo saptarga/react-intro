@@ -13,8 +13,10 @@ const App = () => {
 					return <li>{food}</li>;
 				})}
 			</ul>
-			<ButtonClass />
-			<ButtonFunction />
+			<div style={{ margin: "20px" }}>
+				<ButtonClass text="I'm button class" />
+				<ButtonFunction text="I'm button function" color="blue" />
+			</div>
 		</div>
 	);
 };
